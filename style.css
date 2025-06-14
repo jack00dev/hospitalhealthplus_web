@@ -893,7 +893,13 @@ body {
     }
 
     .service-background {
-        padding: 50px 50px;
+        padding: 50px 20px;
+    }
+
+    .service-categorie div {
+        height: 170px;
+        font-size: 12px;
+        padding-top: 75px;
     }
 
     .team-section-content {
