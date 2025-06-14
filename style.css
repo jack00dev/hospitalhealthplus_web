@@ -950,3 +950,9 @@ body {
         position: absolute;
     }
 }
+
+@media (max-width: 400px) {
+    .service-background {
+        padding: 50px 10px;
+    }
+}
