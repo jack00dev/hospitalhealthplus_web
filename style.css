@@ -479,13 +479,13 @@ body {
     align-items: center;
 }
 
-.contact-section .contact-info-list .contact-info a{
+.contact-section .contact-info-list .contact-info a {
     display: flex;
     text-align: center;
     gap: 12px;
     text-decoration: none;
     color: var(--white-color);
-} 
+}
 
 .contact-section .contact-info-list .contact-info i {
     font-size: 15px;
@@ -620,6 +620,11 @@ body {
 }
 
 @media (max-width: 900px) {
+
+    .contact-section .contact-form {
+        width: 70%;
+    }
+
     .contact-section .section-contact {
         align-items: center;
         flex-direction: column-reverse;
@@ -684,6 +689,10 @@ body {
 }
 
 @media (max-width: 640px) {
+
+    .contact-section .contact-form {
+        width: 80%;
+    }
 
     .footer-section .footer-content {
         flex-direction: column;
@@ -878,6 +887,10 @@ body {
 }
 
 @media (max-width: 510px) {
+
+    .contact-section .contact-form {
+        width: 80%;
+    }
 
     .service-background {
         padding: 50px 50px;
